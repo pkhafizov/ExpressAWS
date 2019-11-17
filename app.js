@@ -15,6 +15,6 @@ app.get('/',function (req,res) {
     res.sendFile(path.join(__dirname,'/views/','/index.html'));
 })
 
-app.listen(3000,function () {
-    debug(`listening on port ${chalk.green(3000)}`);
+app.listen(8081,function () {
+    debug(`listening on port ${chalk.green(8081)}`);
 })
